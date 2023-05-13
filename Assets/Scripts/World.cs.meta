@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 766f4b27e96343047b4761b3fad1d201
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - biome: {instanceID: 0}
+  - player: {instanceID: 0}
+  - material: {instanceID: 0}
+  - debugScreen: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

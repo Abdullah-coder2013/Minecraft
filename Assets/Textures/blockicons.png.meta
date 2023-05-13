@@ -550,6 +550,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: sandstone
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb8e5902e20fc54bad8c6d67ddbb109
+      internalID: -1948817097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactus
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15555089967cce246b7f454579e6a1ea
+      internalID: 618009405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowgrass
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9d22ade77e20a4f86e6f65e596e878
+      internalID: -1968552258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -564,6 +627,7 @@ TextureImporter:
       andesite: -1517059549
       bedrock: -1604110407
       bricks: 762350224
+      cactus: 618009405
       coal: 1087484397
       cobblestone: 99258191
       copper: 777507067
@@ -580,6 +644,8 @@ TextureImporter:
       planks: -779667967
       redstone: -880412420
       sand: 691086146
+      sandstone: -1948817097
+      snowgrass: -1968552258
       stone: -15185548
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

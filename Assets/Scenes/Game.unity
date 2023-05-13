@@ -241,7 +241,11 @@ MonoBehaviour:
     enableThreading: 0
     mouseSensitivity: 0
     seed: 0
-  biome: {fileID: 11400000, guid: 98e0e80f4da599a47b3c1bf6ed4d6ad0, type: 2}
+  biomes:
+  - {fileID: 11400000, guid: 98e0e80f4da599a47b3c1bf6ed4d6ad0, type: 2}
+  - {fileID: 11400000, guid: 36b6227af2cc07042b0bda9dedf516b4, type: 2}
+  - {fileID: 11400000, guid: 75e21c231d73b364ca134f6cbb2f6162, type: 2}
+  - {fileID: 11400000, guid: fb6f51e509632cb4bbac7fb0dae19933, type: 2}
   globalLightLevel: 1
   day: {r: 0.07440368, g: 0.58802795, b: 0.8301887, a: 0}
   night: {r: 0.14117648, g: 0.17254902, b: 0.32156864, a: 0}
@@ -481,6 +485,39 @@ MonoBehaviour:
     bottomFaceTexture: 20
     leftFaceTexture: 20
     rightFaceTexture: 20
+  - blockName: Sandstone
+    isSolid: 1
+    renderNeighborFaces: 0
+    transparency: 0
+    icon: {fileID: -1948817097, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
+    backFaceTexture: 24
+    frontFaceTexture: 24
+    topFaceTexture: 22
+    bottomFaceTexture: 23
+    leftFaceTexture: 24
+    rightFaceTexture: 24
+  - blockName: Cactus
+    isSolid: 1
+    renderNeighborFaces: 0
+    transparency: 0
+    icon: {fileID: 618009405, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
+    backFaceTexture: 26
+    frontFaceTexture: 26
+    topFaceTexture: 27
+    bottomFaceTexture: 25
+    leftFaceTexture: 26
+    rightFaceTexture: 26
+  - blockName: Snow Grass
+    isSolid: 1
+    renderNeighborFaces: 0
+    transparency: 0
+    icon: {fileID: -1968552258, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
+    backFaceTexture: 28
+    frontFaceTexture: 28
+    topFaceTexture: 29
+    bottomFaceTexture: 1
+    leftFaceTexture: 28
+    rightFaceTexture: 28
   debugScreen: {fileID: 1622962990}
   creativeInventoryWindow: {fileID: 179951865}
   cursorSlot: {fileID: 1582970239}

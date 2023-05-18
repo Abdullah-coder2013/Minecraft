@@ -32,7 +32,7 @@ public class DebugScreen : MonoBehaviour
         debugText += "\n";
         debugText += "Chunk: " + (world.playerChunkCoord.x - halfWorldSizeChunks) + "/" + (world.playerChunkCoord.z - halfWorldSizeChunks);
         debugText += "\n\n";
-        debugText += "Seed: " + world.settings.seed;
+        debugText += "Seed: " + VoxelData.seed;
 
         text.text = debugText;
 

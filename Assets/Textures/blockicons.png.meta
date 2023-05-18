@@ -131,7 +131,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: copper
+      name: irond
       rect:
         serializedVersion: 2
         x: 900
@@ -152,7 +152,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andesite
+      name: goldd
       rect:
         serializedVersion: 2
         x: 1200
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: stone
+      name: grass
       rect:
         serializedVersion: 2
         x: 0
@@ -194,7 +194,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sand
+      name: bedrock
       rect:
         serializedVersion: 2
         x: 311
@@ -215,7 +215,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: log
+      name: planks
       rect:
         serializedVersion: 2
         x: 600
@@ -236,7 +236,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glass
+      name: redstone
       rect:
         serializedVersion: 2
         x: 900
@@ -257,7 +257,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coal
+      name: granite
       rect:
         serializedVersion: 2
         x: 1200
@@ -278,7 +278,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: grass
+      name: bricks
       rect:
         serializedVersion: 2
         x: 0
@@ -299,7 +299,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bedrock
+      name: cobblestone
       rect:
         serializedVersion: 2
         x: 300
@@ -320,10 +320,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: planks
+      name: dirt
       rect:
         serializedVersion: 2
-        x: 600
+        x: 602
         y: 900
         width: 300
         height: 300
@@ -341,7 +341,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redstone
+      name: leaves
       rect:
         serializedVersion: 2
         x: 900
@@ -362,7 +362,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: granite
+      name: diorite
       rect:
         serializedVersion: 2
         x: 1200
@@ -383,7 +383,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bricks
+      name: iron
       rect:
         serializedVersion: 2
         x: 0
@@ -404,7 +404,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cobblestone
+      name: gold
       rect:
         serializedVersion: 2
         x: 300
@@ -425,7 +425,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dirt
+      name: diamond
       rect:
         serializedVersion: 2
         x: 600
@@ -446,7 +446,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: leaves
+      name: copper
       rect:
         serializedVersion: 2
         x: 900
@@ -467,7 +467,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diorite
+      name: andesite
       rect:
         serializedVersion: 2
         x: 1200
@@ -488,7 +488,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: iron
+      name: sandstone
       rect:
         serializedVersion: 2
         x: 0
@@ -509,7 +509,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gold
+      name: cactus
       rect:
         serializedVersion: 2
         x: 300
@@ -530,7 +530,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: diamond
+      name: snowgrass
       rect:
         serializedVersion: 2
         x: 600
@@ -551,7 +551,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandstone
+      name: diamondd
       rect:
         serializedVersion: 2
         x: 0
@@ -572,7 +572,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cactus
+      name: copperd
       rect:
         serializedVersion: 2
         x: 300
@@ -593,7 +593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: snowgrass
+      name: deepslated
       rect:
         serializedVersion: 2
         x: 600
@@ -601,7 +601,7 @@ TextureImporter:
         width: 300
         height: 300
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -609,6 +609,237 @@ TextureImporter:
       bones: []
       spriteID: 9a9d22ade77e20a4f86e6f65e596e878
       internalID: -1968552258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stone
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3a6b26de57ced4094ec8d7a1aa6d06
+      internalID: 1068810877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sand
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d18f69bfe4a8f4aa7ead5e4ecdfb09
+      internalID: 490702291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: log
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d77fb39999d02048b9233cdfbdf8358
+      internalID: -512458514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2f38607d10fe643ad1f6d469d39218
+      internalID: 1781107058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coal
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1498
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b9780dd373c14c4abe3770db9ea5c72
+      internalID: -2124280148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lapis
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d2097d8fd1ae1f4d86dce9521a200e9
+      internalID: 307522834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emerald
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b268a89523d6c8342a0a3f6128485547
+      internalID: 523389725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redstoned
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72d85772b4b0a9429ca73d058c59d32
+      internalID: 116843631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lapisd
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4c03d57918a6d45b867533e6ab9985
+      internalID: 1871130974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: emeraldd
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18c491b9a29f124892ea746ce410a42
+      internalID: 1129186754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coald
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf78110d52172e4a8d8c340e5dc09e6
+      internalID: 1052769553
       vertices: []
       indices: 
       edges: []
@@ -624,29 +855,40 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      andesite: -1517059549
-      bedrock: -1604110407
-      bricks: 762350224
-      cactus: 618009405
-      coal: 1087484397
-      cobblestone: 99258191
-      copper: 777507067
-      diamond: -1839509125
-      diorite: 225592005
-      dirt: -828461953
-      glass: -386757176
-      gold: -595287007
-      granite: -1271562994
-      grass: 2069487914
-      iron: 680871495
-      leaves: -1886210481
-      log: -1021037096
-      planks: -779667967
-      redstone: -880412420
-      sand: 691086146
-      sandstone: -1948817097
-      snowgrass: -1968552258
-      stone: -15185548
+      andesite: 225592005
+      bedrock: 691086146
+      bricks: 2069487914
+      cactus: -595287007
+      coal: -2124280148
+      coald: 1052769553
+      cobblestone: -1604110407
+      copper: -1886210481
+      copperd: 618009405
+      deepslated: -1968552258
+      diamond: -828461953
+      diamondd: -1948817097
+      diorite: -1271562994
+      dirt: -779667967
+      emerald: 523389725
+      emeraldd: 1129186754
+      glass: 1781107058
+      gold: 99258191
+      goldd: -1517059549
+      granite: 1087484397
+      grass: -15185548
+      iron: 762350224
+      irond: 777507067
+      lapis: 307522834
+      lapisd: 1871130974
+      leaves: -880412420
+      log: -512458514
+      planks: -1021037096
+      redstone: -386757176
+      redstoned: 116843631
+      sand: 490702291
+      sandstone: 680871495
+      snowgrass: -1839509125
+      stone: 1068810877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

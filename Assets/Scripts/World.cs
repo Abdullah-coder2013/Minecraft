@@ -25,6 +25,8 @@ public class World : MonoBehaviour
 
     public BlockType[] blocktypes;
 
+    public DieMenu dieMenu;
+
     Chunk[,] chunks = new Chunk[VoxelData.WorldSizeInChunks, VoxelData.WorldSizeInChunks];
 
     List<ChunkCoord> activeChunks = new List<ChunkCoord>();
@@ -60,7 +62,7 @@ public class World : MonoBehaviour
         string jsonImport = File.ReadAllText(Application.dataPath + "/settings.cfg");
         settings = JsonUtility.FromJson<Settings>(jsonImport);
 
-        Random.InitState(settings.seed);
+        Random.InitState(VoxelData.seed);
 
         Shader.SetGlobalFloat("minGlobalLightLevel", VoxelData.minLightLevel);
         Shader.SetGlobalFloat("maxGlobalLightLevel", VoxelData.maxLightLevel);
@@ -104,6 +106,10 @@ public class World : MonoBehaviour
             if (chunksToDraw.Peek().isEditable)
                 chunksToDraw.Dequeue().CreateMesh();
 
+        }
+
+        if (player.transform.position.y < -64) {
+            dieMenu.Die();
         }
 
         if (!settings.enableThreading)
@@ -366,6 +372,28 @@ public class World : MonoBehaviour
         }
 
     }
+    public bool UIforDying
+    {
+
+        get { return _inUI; }
+
+        set
+        {
+
+            _inUI = value;
+            if (_inUI)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
+
+    }
 
     public byte GetVoxel(Vector3 pos)
     {
@@ -383,37 +411,51 @@ public class World : MonoBehaviour
             return 3;
 
         /* BIOME SELECTION PASS */
-        
+
         int solidGroundHeight = 42;
-        float sumOfHights = 0f;
+        float sumOfHeights = 0f;
         int count = 0;
         float strongestWeight = 0f;
         int strongestBiomeIndex = 0;
 
-        for (int i = 0; i < biomes.Length; i++) {
-            float weight = Noise.Get2DPerlin(new Vector2(pos.x,pos.z), biomes[i].offset, biomes[i].scale);
+        for (int i = 0; i < biomes.Length; i++)
+        {
 
-            if (weight > strongestWeight) {
+            float weight = Noise.Get2DPerlin(new Vector2(pos.x, pos.z), biomes[i].offset, biomes[i].scale);
+
+            // Keep track of which weight is strongest.
+            if (weight > strongestWeight)
+            {
+
                 strongestWeight = weight;
                 strongestBiomeIndex = i;
+
             }
+
+            // Get the height of the terrain (for the current biome) and multiply it by its weight.
             float height = biomes[i].terrainHeight * Noise.Get2DPerlin(new Vector2(pos.x, pos.z), 0, biomes[i].terrainScale) * weight;
 
-            if (height > 0) {
-                sumOfHights += height;
+            // If the height value is greater 0 add it to the sum of heights.
+            if (height > 0)
+            {
+
+                sumOfHeights += height;
                 count++;
+
             }
 
         }
+
+        // Set biome to the one with the strongest weight.
         BiomeAttributes biome = biomes[strongestBiomeIndex];
 
-        sumOfHights /= count;
+        // Get the average of the heights.
+        sumOfHeights /= count;
 
-        int terrainHeight = Mathf.FloorToInt(sumOfHights + solidGroundHeight);
+        int terrainHeight = Mathf.FloorToInt(sumOfHeights + solidGroundHeight);
 
 
-
-        // BiomeAttributes biome = biomes[index];
+        //BiomeAttributes biome = biomes[index];
 
         /* BASIC TERRAIN PASS */
 
@@ -425,12 +467,15 @@ public class World : MonoBehaviour
             voxelValue = biome.subSurfaceBlock;
         else if (yPos > terrainHeight)
             return 0;
-        else
+        else if (yPos > 40 && yPos < terrainHeight - 3)
             voxelValue = 2;
+        else {
+            voxelValue = 24;
+        }
 
         /* SECOND PASS */
 
-        if (voxelValue == 2)
+        if (voxelValue == 2 || voxelValue == 24)
         {
 
             foreach (Lode lode in biome.lodes)
@@ -574,17 +619,14 @@ public class Settings
 {
 
     [Header("Game Data")]
-    public string version;
+    public string version = "2.363.09";
 
     [Header("Performance")]
-    public int viewDistance;
-    public bool enableThreading;
+    public int viewDistance = 5;
+    public bool enableThreading = true;
 
     [Header("Controls")]
     [Range(0.1f, 10f)]
-    public float mouseSensitivity;
-
-    [Header("World Gen")]
-    public int seed;
+    public float mouseSensitivity = 2f;
 
 }

@@ -9,9 +9,11 @@ public static class VoxelData {
     public static float lightFalloff = 0.08f;
 
     public static readonly int ChunkWidth = 16;
-    public static readonly int ChunkHeight = 128;
+    public static readonly int ChunkHeight = 200;
     public static readonly int WorldSizeInChunks = 100;
     public static readonly int TextureAtlasSizeInBlocks = 16;
+
+    public static int seed;
 
     public static int ViewDistanceInChunks = 4;
     public static int WorldSizeInVoxels

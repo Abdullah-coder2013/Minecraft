@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dd2c7b9efdd39c48a3ffcabecc229a4, type: 3}
-  m_Name: SnowLands
+  m_Name: Biome
   m_EditorClassIdentifier: 
   biomeName: GrassLands
-  offset: 80780
-  scale: 0.17
-  terrainHeight: 80
+  offset: 576347348
+  scale: 0.8
+  terrainHeight: 190
   terrainScale: 0.25
   lodes:
   - nodeName: Air1
@@ -26,8 +26,8 @@ MonoBehaviour:
     threshold: 0.5
     noiseOffset: 0
   - nodeName: Air2
-    blockID: 5
-    minHeight: 30
+    blockID: 254
+    minHeight: 1
     maxHeight: 65
     scale: 0.2
     threshold: 0.6
@@ -96,12 +96,12 @@ MonoBehaviour:
     threshold: 0.6
     noiseOffset: 5000
   majorFloraIndex: 0
-  majorFloraZoneScale: 3.3
-  placeMajorFlora: 0
-  surfaceBlock: 23
+  majorFloraZoneScale: 1.3
+  placeMajorFlora: 1
+  surfaceBlock: 4
   subSurfaceBlock: 1
   majorFloraZoneThreshold: 0.6
   majorFloraPlacementScale: 10
-  majorFloraPlacementThreshold: 0.707
-  maxHeight: 12
-  minHeight: 5
+  majorFloraPlacementThreshold: 0.8
+  maxHeight: 5
+  minHeight: 3

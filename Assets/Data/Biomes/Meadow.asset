@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dd2c7b9efdd39c48a3ffcabecc229a4, type: 3}
-  m_Name: Dessert
+  m_Name: Meadow
   m_EditorClassIdentifier: 
-  biomeName: Dessert
-  offset: 0
-  scale: 0.058
+  biomeName: Meadow
+  offset: 1000
+  scale: 0.042
   terrainHeight: 200
-  terrainScale: 0.05
+  terrainScale: 0.15
   lodes:
   - nodeName: Air1
     blockID: 1
@@ -165,13 +165,13 @@ MonoBehaviour:
     scale: 0.9
     threshold: 0.6
     noiseOffset: 10000
-  majorFloraIndex: 1
-  majorFloraZoneScale: 1.06
+  majorFloraIndex: 0
+  majorFloraZoneScale: 1.3
   placeMajorFlora: 1
-  surfaceBlock: 9
-  subSurfaceBlock: 21
+  surfaceBlock: 4
+  subSurfaceBlock: 1
   majorFloraZoneThreshold: 0.6
-  majorFloraPlacementScale: 7.5
+  majorFloraPlacementScale: 15
   majorFloraPlacementThreshold: 0.8
   maxHeight: 5
   minHeight: 3

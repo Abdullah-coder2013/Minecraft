@@ -7,6 +7,8 @@ public class Chunk
 
     public ChunkCoord coord;
 
+    public BiomeAttributes chunkBiome;
+
     GameObject chunkObject;
     MeshRenderer meshRenderer;
     MeshFilter meshFilter;

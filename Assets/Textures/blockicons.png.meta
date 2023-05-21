@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -131,494 +131,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: irond
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b7f832fa7dccaae4dbf2bcd5a0c0d39c
-      internalID: 777507067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: goldd
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d1de9e11206b2d145860692c150cfdb3
-      internalID: -1517059549
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: grass
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f032533f5a13fe04aa6ef83e50930c34
-      internalID: -15185548
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bedrock
-      rect:
-        serializedVersion: 2
-        x: 311
-        y: 1200
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fa9a9d67222dd64b8f6dbbcfbfa4bdd
-      internalID: 691086146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: planks
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 1200
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a903e329b8493041a94cad6d49aaca5
-      internalID: -1021037096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: redstone
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 1200
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6fbf6c73dea7c84c823dde5d5a1997e
-      internalID: -386757176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: granite
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 1200
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bde38d866eb593b44891163bf2152572
-      internalID: 1087484397
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bricks
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 900
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be2a98ef5d094694dbe14c407485ec95
-      internalID: 2069487914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cobblestone
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 900
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ab180b2e2a10184cbdd6dbab3160a32
-      internalID: -1604110407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: dirt
-      rect:
-        serializedVersion: 2
-        x: 602
-        y: 900
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6650645f7c445f4381b1781fbbb2e2f
-      internalID: -779667967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: leaves
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 900
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5652d104c27a422428a7db52dfeb0e1d
-      internalID: -880412420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: diorite
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 900
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bac277fc424eba4eb040df6070423f5
-      internalID: -1271562994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: iron
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 584ba335b10387a40ac28a7b101eff06
-      internalID: 762350224
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gold
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 600
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bee4ec7bee5f3874e9ff1eaf1f69d140
-      internalID: 99258191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: diamond
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 600
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d5587b301559f24b854119a6ac42608
-      internalID: -828461953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: copper
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 600
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13665ac9e152561419e1b2d267f7b331
-      internalID: -1886210481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: andesite
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 600
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 970c59348c0cae14aac08f3520218e03
-      internalID: 225592005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sandstone
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9d70eaabb5c6484b916c3b359e8f7b3
-      internalID: 680871495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cactus
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba6d8626a92406348a8d39f66457f067
-      internalID: -595287007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: snowgrass
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 300
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1e644869d537fa344adbf3ba3ba23a70
-      internalID: -1839509125
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: diamondd
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9eb8e5902e20fc54bad8c6d67ddbb109
-      internalID: -1948817097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: copperd
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 15555089967cce246b7f454579e6a1ea
-      internalID: 618009405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: deepslated
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 300
-        height: 300
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9a9d22ade77e20a4f86e6f65e596e878
-      internalID: -1968552258
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: stone
       rect:
         serializedVersion: 2
         x: 0
-        y: 1500
+        y: 1800
         width: 300
         height: 300
       alignment: 0
@@ -628,7 +145,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af3a6b26de57ced4094ec8d7a1aa6d06
+      spriteID: 536c317c2a5926d41b9b699c88192a0a
       internalID: 1068810877
       vertices: []
       indices: 
@@ -639,6 +156,132 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 300
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7bd9415516a3143ba6687b3ea1f15d
+      internalID: 490702291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oaklog
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1965baf9327ad15458122335d5d441f3
+      internalID: -789351974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glass
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e31626811f5594eb3c90282e797f8d
+      internalID: 1781107058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coal
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04744e36075a054f8aecb7cdb8e487a
+      internalID: -2124280148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lapis
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8592aaf70e8b304899ad3d6677f27a8
+      internalID: 307522834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spruceleaves
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c863145d4f5024eb7b4cae14da3ba8
+      internalID: 197276816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass
+      rect:
+        serializedVersion: 2
+        x: 0
         y: 1500
         width: 300
         height: 300
@@ -649,14 +292,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7d18f69bfe4a8f4aa7ead5e4ecdfb09
-      internalID: 490702291
+      spriteID: eee6889f12bd6fb468b0aa2441d8cded
+      internalID: -15185548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: log
+      name: bedrock
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1500
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690bd2ec0e1cf6c479f1c22c13965587
+      internalID: 691086146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: planks
       rect:
         serializedVersion: 2
         x: 600
@@ -670,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d77fb39999d02048b9233cdfbdf8358
-      internalID: -512458514
+      spriteID: 826e88175edb83d45a369d7937d85261
+      internalID: -1021037096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: glass
+      name: redstone
       rect:
         serializedVersion: 2
         x: 900
@@ -691,18 +355,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b2f38607d10fe643ad1f6d469d39218
-      internalID: 1781107058
+      spriteID: 3548e254c58e231469db225f979fb753
+      internalID: -386757176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coal
+      name: granite
       rect:
         serializedVersion: 2
-        x: 1206
-        y: 1498
+        x: 1200
+        y: 1500
         width: 300
         height: 300
       alignment: 0
@@ -712,14 +376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b9780dd373c14c4abe3770db9ea5c72
-      internalID: -2124280148
+      spriteID: 4c7869281191cbc4dbce2574d6be1706
+      internalID: 1087484397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lapis
+      name: emerald
       rect:
         serializedVersion: 2
         x: 1500
@@ -733,14 +397,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d2097d8fd1ae1f4d86dce9521a200e9
-      internalID: 307522834
+      spriteID: 2351a8606f511c24cababef9d052dfe7
+      internalID: 523389725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: emerald
+      name: bricks
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886bfa7c2f62d144abf71d2514d97082
+      internalID: 2069487914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cobblestone
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee7e6486ec4ce7441908d189203e3917
+      internalID: -1604110407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dirt
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b555ee41f958eb4eb5fd0b741a0e82f
+      internalID: -779667967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oakleaves
+      rect:
+        serializedVersion: 2
+        x: 898
+        y: 1198
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ca69bcbd2ebef54aad991b9e58ab42f
+      internalID: 220540887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diorite
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8c26f0578b06f4da95260849800c6e
+      internalID: -1271562994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: redstoned
       rect:
         serializedVersion: 2
         x: 1500
@@ -754,14 +523,119 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b268a89523d6c8342a0a3f6128485547
-      internalID: 523389725
+      spriteID: e185558d2df33a447b535cebe7d14853
+      internalID: 116843631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: redstoned
+      name: iron
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aacd49e626e1531438909954b7caf64d
+      internalID: 762350224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gold
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1948754819958ce468304d5effbe9029
+      internalID: 99258191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamond
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0918368ad1ed54b82c47e18da93479
+      internalID: -828461953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copper
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdea9ddbd98450245a9365231fc0f61a
+      internalID: -1886210481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: andesite
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5946c268b54970445bfe198097156126
+      internalID: 225592005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lapisd
       rect:
         serializedVersion: 2
         x: 1500
@@ -775,17 +649,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a72d85772b4b0a9429ca73d058c59d32
-      internalID: 116843631
+      spriteID: 340e637e0641e4446bb2196c9fbe8825
+      internalID: 1871130974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lapisd
+      name: sandstone
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 0
         y: 600
         width: 300
         height: 300
@@ -796,14 +670,224 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c4c03d57918a6d45b867533e6ab9985
-      internalID: 1871130974
+      spriteID: 01b0fb455f0f51b40beed833797349d1
+      internalID: 680871495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cactus
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec0507decd61dc46a7332a02490a698
+      internalID: -595287007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snowgrass
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da80eb8b6e42c18429d06f003057b7c7
+      internalID: -1839509125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: irond
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed6e47b3de929849ac755e9ea77d31d
+      internalID: 777507067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goldd
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34739cb12d059944bcda4f1fa98c738
+      internalID: -1517059549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
       name: emeraldd
+      rect:
+        serializedVersion: 2
+        x: 1507
+        y: 600
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703f90b574e28b2459e4a92879d7cb55
+      internalID: 1129186754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diamondd
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daacb87cfe2a5aa4d81049cc95d9d64f
+      internalID: -1948817097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: copperd
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c253946e43019dd4bb293c36833feb3f
+      internalID: 618009405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: deepslated
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3279e05fcddb6d74092214c4308dcd3d
+      internalID: -1968552258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coald
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 372207d080a805d4295752a50ce78ee3
+      internalID: 1052769553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spruceplanks
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 300
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 108451768d6e504498a18b184ccf9293
+      internalID: -1594488644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprucelog
       rect:
         serializedVersion: 2
         x: 1500
@@ -817,29 +901,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b18c491b9a29f124892ea746ce410a42
-      internalID: 1129186754
+      spriteID: 3855f11614f456846a50787117f1d98f
+      internalID: -1845723751
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: coald
+      name: birchlog
       rect:
         serializedVersion: 2
-        x: 900
-        y: 0
+        x: 1800
+        y: 1500
         width: 300
         height: 300
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bf78110d52172e4a8d8c340e5dc09e6
-      internalID: 1052769553
+      spriteID: b2f3b693d25eb8541accc143defc5a61
+      internalID: -1048714350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birchplanks
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b08507e21ab51a24fa93403e1bf141d6
+      internalID: 478932500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: birchleaves
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 300
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 828262ac9afcd564cae5c0377407e1d2
+      internalID: -137494070
       vertices: []
       indices: 
       edges: []
@@ -857,6 +983,9 @@ TextureImporter:
     nameFileIdTable:
       andesite: 225592005
       bedrock: 691086146
+      birchleaves: -137494070
+      birchlog: -1048714350
+      birchplanks: 478932500
       bricks: 2069487914
       cactus: -595287007
       coal: -2124280148
@@ -880,14 +1009,17 @@ TextureImporter:
       irond: 777507067
       lapis: 307522834
       lapisd: 1871130974
-      leaves: -880412420
-      log: -512458514
+      oakleaves: 220540887
+      oaklog: -789351974
       planks: -1021037096
       redstone: -386757176
       redstoned: 116843631
       sand: 490702291
       sandstone: 680871495
       snowgrass: -1839509125
+      spruceleaves: 197276816
+      sprucelog: -1845723751
+      spruceplanks: -1594488644
       stone: 1068810877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

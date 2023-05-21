@@ -33,6 +33,9 @@ public class DebugScreen : MonoBehaviour
         debugText += "Chunk: " + (world.playerChunkCoord.x - halfWorldSizeChunks) + "/" + (world.playerChunkCoord.z - halfWorldSizeChunks);
         debugText += "\n\n";
         debugText += "Seed: " + VoxelData.seed;
+        debugText += "\n";
+        // debugText += "Biome: " + world.GetChunkFromVector3(world.player.transform.position).chunkBiome.biomeName;
+
 
         text.text = debugText;
 

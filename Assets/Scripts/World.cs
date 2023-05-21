@@ -37,6 +37,8 @@ public class World : MonoBehaviour
     public List<Chunk> chunksToUpdate = new List<Chunk>();
     public Queue<Chunk> chunksToDraw = new Queue<Chunk>();
 
+    public GameObject escapeMenu;
+
     bool applyingModifications = false;
 
     Queue<Queue<VoxelMod>> modifications = new Queue<Queue<VoxelMod>>();
@@ -395,6 +397,29 @@ public class World : MonoBehaviour
 
     }
 
+    public bool UIforEscaping
+    {
+
+        get { return _inUI; }
+
+        set
+        {
+
+            _inUI = value;
+            if (_inUI)
+            {
+                Cursor.lockState = CursorLockMode.None;
+                Cursor.visible = true;
+            }
+            else
+            {
+                Cursor.lockState = CursorLockMode.Locked;
+                Cursor.visible = false;
+            }
+        }
+
+    }
+
     public byte GetVoxel(Vector3 pos)
     {
 
@@ -451,6 +476,7 @@ public class World : MonoBehaviour
 
         // Get the average of the heights.
         sumOfHeights /= count;
+        // GetChunkFromVector3(pos).chunkBiome = biome;
 
         int terrainHeight = Mathf.FloorToInt(sumOfHeights + solidGroundHeight);
 

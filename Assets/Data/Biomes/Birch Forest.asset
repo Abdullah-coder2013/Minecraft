@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2dd2c7b9efdd39c48a3ffcabecc229a4, type: 3}
-  m_Name: Snowy Plains
+  m_Name: Birch Forest
   m_EditorClassIdentifier: 
-  biomeName: Snowy Plains
-  offset: 1500
-  scale: 0.042
-  terrainHeight: 200
-  terrainScale: 0.15
+  biomeName: Birch Forest
+  offset: 2000
+  scale: 0.17
+  terrainHeight: 250
+  terrainScale: 0.3
   lodes:
   - nodeName: Air1
     blockID: 1
@@ -165,13 +165,13 @@ MonoBehaviour:
     scale: 0.9
     threshold: 0.6
     noiseOffset: 10000
-  majorFloraIndex: 2
+  majorFloraIndex: 3
   majorFloraZoneScale: 1.3
   placeMajorFlora: 1
-  surfaceBlock: 23
+  surfaceBlock: 4
   subSurfaceBlock: 1
   majorFloraZoneThreshold: 0.6
-  majorFloraPlacementScale: 15
+  majorFloraPlacementScale: 5
   majorFloraPlacementThreshold: 0.8
   maxHeight: 5
   minHeight: 3

@@ -915,6 +915,7 @@ MonoBehaviour:
     rightFaceTexture: 45
   dieMenu: {fileID: 1811289078}
   escapeMenu: {fileID: 0}
+  clouds: {fileID: 1956881893}
   debugScreen: {fileID: 1622962990}
   creativeInventoryWindow: {fileID: 179951865}
   cursorSlot: {fileID: 1582970239}
@@ -4413,6 +4414,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1931217848}
   m_CullTransparentMesh: 1
+--- !u!1 &1956881890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956881894}
+  - component: {fileID: 1956881893}
+  m_Layer: 0
+  m_Name: Clouds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1956881893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956881890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fc659dd5c696c141a05831f2cac975b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cloudHeight: 160
+  cloudPattern: {fileID: 2800000, guid: deb3ee77e1278634e93db4cbfe4426d0, type: 3}
+  cloudMaterial: {fileID: 2100000, guid: be8fb41f41dbb29468665b64447bdb59, type: 2}
+  world: {fileID: 168898202}
+--- !u!4 &1956881894
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956881890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 773.73676, y: 20.048374, z: 731.8982}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1994243290 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8982996035259757805, guid: daa320379e96d18459eb933687972a2c, type: 3}

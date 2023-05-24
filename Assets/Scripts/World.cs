@@ -654,6 +654,7 @@ public class Settings
     [Header("Performance")]
     public int viewDistance = 5;
     public bool enableThreading = true;
+    public CloudStyle clouds = CloudStyle.Fast;
 
     [Header("Controls")]
     [Range(0.1f, 10f)]

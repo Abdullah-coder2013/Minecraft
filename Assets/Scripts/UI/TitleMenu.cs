@@ -21,6 +21,7 @@ public class TitleMenu : MonoBehaviour
     public Slider mouseSlider;
     public TextMeshProUGUI mouseTxtSlider;
     public Toggle threadingToggle;
+    public TMP_Dropdown clouds;
     public GameObject OptionsBackground;
 
     public GameObject Logo;
@@ -69,6 +70,7 @@ public class TitleMenu : MonoBehaviour
         mouseSlider.value = settings.mouseSensitivity;
         UpdateMouseSlider();
         threadingToggle.isOn = settings.enableThreading;
+        clouds.value = (int)settings.clouds;
 
         mainMenuObject.SetActive(false);
         Logo.SetActive(false);
@@ -83,6 +85,7 @@ public class TitleMenu : MonoBehaviour
         settings.viewDistance = (int)viewDstSlider.value;
         settings.mouseSensitivity = mouseSlider.value;
         settings.enableThreading = threadingToggle.isOn;
+        settings.clouds = (CloudStyle)clouds.value;
 
         string jsonExport = JsonUtility.ToJson(settings);
         File.WriteAllText(Application.dataPath + "/settings.cfg", jsonExport);

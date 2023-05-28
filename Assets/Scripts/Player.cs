@@ -11,9 +11,6 @@ public class Player : MonoBehaviour
 
     private Transform cam;
     private World world;
-
-    public EscapeMenu escapeMenu;
-
     public float walkSpeed = 3f;
     public float sprintSpeed = 6f;
     public float jumpForce = 5f;
@@ -67,10 +64,7 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape)) {
-            // escapeMenu.Escape();
-            Application.Quit();
-        }
+        
 
         if (Input.GetKeyDown(KeyCode.E))
         {

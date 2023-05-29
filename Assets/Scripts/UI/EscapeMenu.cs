@@ -16,7 +16,7 @@ public class EscapeMenu : MonoBehaviour
     }
 
     public void Quit() {
-        SaveSystem.SaveWorld(World.Instance.worldData);
+        // SaveSystem.SaveWorld(World.Instance.worldData);
         World.Instance.UIforEscaping = true;
         escapeBackground.SetActive(false);
         escapeMenu.SetActive(false);

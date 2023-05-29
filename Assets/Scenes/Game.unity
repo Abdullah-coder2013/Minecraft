@@ -448,7 +448,7 @@ MonoBehaviour:
     version: 
     loadDistance: 16
     viewDistance: 0
-    enableThreading: 0
+    enableThreading: 1
     clouds: 1
     mouseSensitivity: 0
   biomes:
@@ -468,7 +468,7 @@ MonoBehaviour:
   - blockName: Air
     isSolid: 0
     renderNeighborFaces: 1
-    transparency: 1
+    opacity: 0
     icon: {fileID: 0}
     backFaceTexture: 2
     frontFaceTexture: 2
@@ -479,7 +479,7 @@ MonoBehaviour:
   - blockName: Dirt
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -779667967, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 1
     frontFaceTexture: 1
@@ -490,7 +490,7 @@ MonoBehaviour:
   - blockName: Stone
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 1068810877, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 0
     frontFaceTexture: 0
@@ -501,7 +501,7 @@ MonoBehaviour:
   - blockName: Bedrock
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 691086146, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 9
     frontFaceTexture: 9
@@ -512,7 +512,7 @@ MonoBehaviour:
   - blockName: Grass
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -15185548, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 2
     frontFaceTexture: 2
@@ -523,7 +523,7 @@ MonoBehaviour:
   - blockName: Cobblestone
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1604110407, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 8
     frontFaceTexture: 8
@@ -534,7 +534,7 @@ MonoBehaviour:
   - blockName: Planks
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1021037096, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 4
     frontFaceTexture: 4
@@ -545,7 +545,7 @@ MonoBehaviour:
   - blockName: Log
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -789351974, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 5
     frontFaceTexture: 5
@@ -556,7 +556,7 @@ MonoBehaviour:
   - blockName: Bricks
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 2069487914, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 11
     frontFaceTexture: 11
@@ -567,7 +567,7 @@ MonoBehaviour:
   - blockName: Sand
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 490702291, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 10
     frontFaceTexture: 10
@@ -578,7 +578,7 @@ MonoBehaviour:
   - blockName: Glass
     isSolid: 1
     renderNeighborFaces: 1
-    transparency: 1
+    opacity: 0
     icon: {fileID: 1781107058, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 12
     frontFaceTexture: 12
@@ -589,7 +589,7 @@ MonoBehaviour:
   - blockName: Coal Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -2124280148, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 3
     frontFaceTexture: 3
@@ -600,7 +600,7 @@ MonoBehaviour:
   - blockName: Iron Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 762350224, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 15
     frontFaceTexture: 15
@@ -611,7 +611,7 @@ MonoBehaviour:
   - blockName: Gold Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 99258191, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 13
     frontFaceTexture: 13
@@ -622,7 +622,7 @@ MonoBehaviour:
   - blockName: Diamond Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -828461953, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 14
     frontFaceTexture: 14
@@ -633,7 +633,7 @@ MonoBehaviour:
   - blockName: Leaves
     isSolid: 1
     renderNeighborFaces: 1
-    transparency: 0
+    opacity: 7
     icon: {fileID: 220540887, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 16
     frontFaceTexture: 16
@@ -644,7 +644,7 @@ MonoBehaviour:
   - blockName: Redstone Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -386757176, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 17
     frontFaceTexture: 17
@@ -655,7 +655,7 @@ MonoBehaviour:
   - blockName: Copper Ore
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1886210481, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 18
     frontFaceTexture: 18
@@ -666,7 +666,7 @@ MonoBehaviour:
   - blockName: Diorite
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1271562994, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 21
     frontFaceTexture: 21
@@ -677,7 +677,7 @@ MonoBehaviour:
   - blockName: Granite
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 1087484397, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 19
     frontFaceTexture: 19
@@ -688,7 +688,7 @@ MonoBehaviour:
   - blockName: Andesite
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 225592005, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 20
     frontFaceTexture: 20
@@ -699,7 +699,7 @@ MonoBehaviour:
   - blockName: Sandstone
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 680871495, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 24
     frontFaceTexture: 24
@@ -710,7 +710,7 @@ MonoBehaviour:
   - blockName: Cactus
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -595287007, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 26
     frontFaceTexture: 26
@@ -721,7 +721,7 @@ MonoBehaviour:
   - blockName: Snow Grass
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1839509125, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 28
     frontFaceTexture: 28
@@ -732,7 +732,7 @@ MonoBehaviour:
   - blockName: Deepslate
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1968552258, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 40
     frontFaceTexture: 40
@@ -743,7 +743,7 @@ MonoBehaviour:
   - blockName: Deap Coal
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 1052769553, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 39
     frontFaceTexture: 39
@@ -754,7 +754,7 @@ MonoBehaviour:
   - blockName: Deep Copper
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 618009405, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 38
     frontFaceTexture: 38
@@ -765,7 +765,7 @@ MonoBehaviour:
   - blockName: Deep Diamond
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1948817097, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 37
     frontFaceTexture: 37
@@ -776,7 +776,7 @@ MonoBehaviour:
   - blockName: Deep Emerald
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 1129186754, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 36
     frontFaceTexture: 36
@@ -787,7 +787,7 @@ MonoBehaviour:
   - blockName: Deep Gold
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1517059549, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 35
     frontFaceTexture: 35
@@ -798,7 +798,7 @@ MonoBehaviour:
   - blockName: Deep Iron
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 777507067, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 34
     frontFaceTexture: 34
@@ -809,7 +809,7 @@ MonoBehaviour:
   - blockName: Deep Lapis
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 1871130974, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 33
     frontFaceTexture: 33
@@ -820,7 +820,7 @@ MonoBehaviour:
   - blockName: Deep Redstone
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 116843631, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 32
     frontFaceTexture: 32
@@ -831,7 +831,7 @@ MonoBehaviour:
   - blockName: Emerald
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 523389725, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 31
     frontFaceTexture: 31
@@ -842,7 +842,7 @@ MonoBehaviour:
   - blockName: Lapis
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 307522834, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 30
     frontFaceTexture: 30
@@ -853,7 +853,7 @@ MonoBehaviour:
   - blockName: Spruce Log
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1845723751, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 43
     frontFaceTexture: 43
@@ -864,7 +864,7 @@ MonoBehaviour:
   - blockName: Spruce Leaves
     isSolid: 1
     renderNeighborFaces: 1
-    transparency: 0.5
+    opacity: 7
     icon: {fileID: 197276816, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 41
     frontFaceTexture: 41
@@ -875,7 +875,7 @@ MonoBehaviour:
   - blockName: Spruce Planks
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1594488644, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 42
     frontFaceTexture: 42
@@ -886,7 +886,7 @@ MonoBehaviour:
   - blockName: Birch Log
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: -1048714350, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 47
     frontFaceTexture: 47
@@ -897,7 +897,7 @@ MonoBehaviour:
   - blockName: Birch Planks
     isSolid: 1
     renderNeighborFaces: 0
-    transparency: 0
+    opacity: 15
     icon: {fileID: 478932500, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 46
     frontFaceTexture: 46
@@ -908,7 +908,7 @@ MonoBehaviour:
   - blockName: Birch Leaves
     isSolid: 1
     renderNeighborFaces: 1
-    transparency: 0.5
+    opacity: 7
     icon: {fileID: -137494070, guid: 14e9b2cee2ca4ea46ad8bb20379c34f5, type: 3}
     backFaceTexture: 45
     frontFaceTexture: 45
@@ -916,10 +916,10 @@ MonoBehaviour:
     bottomFaceTexture: 45
     leftFaceTexture: 45
     rightFaceTexture: 45
-  dieMenu: {fileID: 1811289078}
-  escapeMenu: {fileID: 806732553}
   clouds: {fileID: 1956881893}
   debugScreen: {fileID: 1622962990}
+  escapeMenu: {fileID: 806732553}
+  dieMenu: {fileID: 1811289078}
   creativeInventoryWindow: {fileID: 179951865}
   cursorSlot: {fileID: 1582970239}
   worldData:

@@ -6,7 +6,9 @@ public static class VoxelData {
 
     public static float minLightLevel = 0.1f;
     public static float maxLightLevel = 0.9f;
-    public static float lightFalloff = 0.08f;
+    public static float unitoflight {
+        get {return 1f / 16f;}
+    }
 
     public static readonly int ChunkWidth = 16;
     public static readonly int ChunkHeight = 150;
@@ -49,6 +51,9 @@ public static class VoxelData {
         new Vector3Int(-1,0,0),
         new Vector3Int(1,0,0),
     };
+
+    public static readonly int[] revFaceCheckIndex = new int[6] { 1, 0, 3, 2, 5, 4 };
+
 
     public static readonly int[,] voxelTris = new int[6, 4] {
 
